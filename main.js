@@ -1,4 +1,6 @@
 (function () {
   console.log('works');
-  throw new Error("Testing sentry filter from statis site");
+  setTimeout(() => {
+    throw new Error("Testing sentry filter from statis site");
+  }, 3000);
 })()
