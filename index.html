@@ -8,14 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" >
 
-    <script id="leadtrk-widget" data-token="101352382" src="//scripts.webdevgroup.com/forms/trkforms.js?id=164812310333321"></script>
+    <script defer id="leadtrk-widget" data-token="101352382" src="//scripts.webdevgroup.com/forms/trkforms.js?id=164812310333321"></script>
+    <!-- <script defer id="leadtrk-widget" data-token="101352382" src="./forms/trkforms.js"></script> -->
   </head>
   <body>
     <div class="container mt-3">
       <div class="row">
         <div class="col-md-6">
           <h3 class="mb-4">Form 1</h3>
-          <form style="width: 70%">
+          <form method="post" style="width: 70%">
             <div class="mb-1">
               <label for="Email" class="form-label">Email address</label>
               <input required type="email" class="form-control form-control-sm" id="Email" aria-describedby="emailHelp">
@@ -47,10 +48,10 @@
               <input required type="password" class="form-control form-control-sm" id="exampleInputPassword1">
             </div>
             <div class="mb-1 form-check">
-              <input required type="checkbox" class="form-check-input" id="exampleCheck1">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Remember Me</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <input type="submit" class="btn btn-primary">Submit</input>
           </form>
         </div>
         <div class="col-md-6">
@@ -89,10 +90,10 @@
               <input required type="password" class="form-control form-control-sm" id="exampleInputPassword1">
             </div>
             <div class="mb-1 form-check">
-              <input required type="checkbox" class="form-check-input" id="exampleCheck1">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Remember Me</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <input type="submit" class="btn btn-primary">Submit</input>
           </form>
         </div>
         <div class="col-md-6">
